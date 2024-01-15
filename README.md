@@ -216,7 +216,10 @@ df.loc[df['Year'].isnull(), 'Year'] = df.loc[df['Year'].isnull(), 'release_year'
 # Displaying the number of null values in the 'Year' column after filling.
 df['Year'].isnull().sum()
 
-In this Netflix data analysis project, I navigated through Python to uncover the intricacies of the streaming giant. The mission was clear – ensure data cleanliness, decipher content trends, and unveil viewer preferences. Scrutinizing ratings, content types, and durations provided a holistic view. Adding an interactive feature heightened practical exploration. Beyond numbers, this journey illuminated the evolving landscape of Netflix, offering valuable insights into audience preferences. A concise exploration but one that speaks volumes about the power of data in decoding entertainment dynamics.
+In this Netflix data analysis project, I navigated through Python to uncover the intricacies of the streaming giant. The mission was clear – ensure data cleanliness, decipher
+content trends, and unveil viewer preferences. Scrutinizing ratings, content types, and durations provided a holistic view. Adding an interactive feature heightened practical
+exploration. Beyond numbers, this journey illuminated the evolving landscape of Netflix, offering valuable insights into audience preferences. A concise exploration but one that
+speaks volumes about the power of data in decoding entertainment dynamics.
 
 ```
 ![screencapture-localhost-8888-notebooks-Downloads-Da-Project-Netflix-Analysis-Netflix-analysis-ipynb-2024-01-08-16_14_22](https://github.com/Rizwans-github/Netflix-Analysis/assets/141806496/a07cd298-ec87-4858-8830-69accaec52a5)
